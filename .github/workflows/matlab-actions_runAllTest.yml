@@ -1,6 +1,6 @@
 name: Run MATLAB Tests on GitHub-Hosted Runner
 on: [push]
-Jobs:
+jobs:
     my-job:
         name: Run MATLAB Tests and Generate Artifacts
         runs-on: ubuntu-latest
